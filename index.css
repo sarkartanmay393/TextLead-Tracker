@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: goldenrod;
+    font-family: sans-serif, 'Rubik Vinyl', cursive;
+    font-weight: bold;
+    text-align: center;
+
+    display: block;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: 'Rubik Vinyl';
+    margin-bottom: 8px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+    width: 85vw;
+
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.857);
+    padding: 12px;
+}
+
+.main-container {
+    box-shadow: 0 8px 8px 0 rgba(61, 60, 60, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: 1px black;
+    border-radius: 6px;
+
+    padding: 12px;
+}
+
+.inside-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+#input_el {
+    border: 2px solid green;
+    border-radius: 6px;
+
+    width: 85vw;
+    height: 2.5vw;
+
+    padding: 4px;
+
+    font-family: sans-serif;
+}
+
+input[type="text"] {
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* Buttons */
+.buttons-div {
+    padding-top: 8px;
+
+    text-align: start;
+}
+
+button {
+    color: black;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+    border-radius: 6px;
+
+    padding: 6px;
+}
+
+#save-input-btn {
+    background-color: green;
+    color: white;
+}
+
+#save-link-btn {
+    background-color: darkorange;
+    color: white;
+}
+
+/* List */
+#ul_el {}
+
+/* Footer */
+#twitter {
+    color: white;
+    text-decoration: none;
+}
+
+#github-div {
+    margin-top: 8px;
+}
+
+.my-footer {
+    width: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    background-color: rgba(0, 0, 0, 0.632);
+
+    display: grid;
+    justify-content: center;
+}

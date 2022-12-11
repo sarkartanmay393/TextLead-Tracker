@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>TextLead Tracker</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Main Game Area -->
+    <div class="main-container container">
+        <div class="inside-container">
+            <h1>Text Lead Tracker</h1>
+            <div class="input-div">
+                <input id="input_el" type="text" name="leadText" placeholder="Type something! ✍🏻" required>
+            </div>
+            <div class="buttons-div column">
+                <button id="save-input-btn">SAVE INPUT</button>
+                <button id="save-link-btn">SAVE LINK</button>
+                <button id="clear-all-btn">CLEAR ALL</button>
+            </div>
+        </div>
+        <hr>
+        <ul id="ul_el">
+        </ul>
+    </div>
+
+
+    <!-- Footer Implementation-->
+    <div class="row text-center my-footer">
+        <p style="color: white">Made with ❤️ by <a id="twitter" href="https://twitter.com/sarkartanmay393">Tanmay</a>
+        </p>
+        <div id="github-div">
+            <a href="https://github.com/sarkartanmay393" target="_blank">
+                <img src="./static/icons/github-mark-white.png" height="32" width="32">
+            </a>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
