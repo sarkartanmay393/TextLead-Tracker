@@ -4,4 +4,4 @@
 
 Visit Demo: <https://textlead-tracker-393.netlify.com>
 
-<img src="./static/screenshot.png">
+<img src="./static/screenshot-1.png" >
